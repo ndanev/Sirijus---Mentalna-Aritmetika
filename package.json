@@ -1,0 +1,22 @@
+{
+  "name": "sirijus---mentalna-aritmetika",
+  "version": "1.0.0",
+  "description": "Redesign original website Sirijus",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndanev/Sirijus---Mentalna-Aritmetika.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndanev/Sirijus---Mentalna-Aritmetika/issues"
+  },
+  "homepage": "https://github.com/ndanev/Sirijus---Mentalna-Aritmetika#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
