@@ -220,12 +220,30 @@ li.drop:hover > ul#dropdown-content {
     letter-spacing: 1px;
     margin-bottom: 20px;
    z-index: -1; 
+   position: relative;
+   animation-name: heading;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {top: -120px;}
+    100%{ top: 0px;}
 }
 
 
 #showcase-content p {
     font-size: 20px;
     margin-bottom: 50px;
+    position: relative;
+    animation-name: sc-content;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sc-content {
+    0%{left: -1000px;}
+    100% {left: 0px;}
 }
 
 #showcase-content p span {
@@ -242,6 +260,16 @@ li.drop:hover > ul#dropdown-content {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation-name: sc-btn;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sc-btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 #showcase-content  a:hover {
@@ -255,12 +283,12 @@ li.drop:hover > ul#dropdown-content {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
+/* 
 @keyframes example {
     0%   {color: #f5ee33;}
     50%  {color: #fb7b76;}
     100% {color: #f5ee33;}
-  }
+  } */
 
 #showcase-content img {
     width: 100px;
