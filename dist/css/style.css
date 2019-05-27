@@ -218,7 +218,6 @@ li.drop:hover > ul#dropdown-content {
     color: var(--main-color);
     padding: 20px 40px;
     z-index: 99999999;
-    /* height: 540px; */
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -246,10 +245,13 @@ li.drop:hover > ul#dropdown-content {
 }
 
 #navbarSupportedContent1 ul li {
-    background-image: linear-gradient(to right top, #3068a0, #2b8cc1, #00b0ed, #00c6f7, #00dcff);
-    margin-bottom: 5px;
-    border-radius: 3px;
+    /* background-image: linear-gradient(to right top, #3068a0, #2b8cc1, #00b0ed, #00c6f7, #00dcff); */
+    margin-bottom: 10px;
 
+}
+
+#navbarSupportedContent1 ul li a {
+    color: var(--main-color);
 }
 
 #showcase-content {

@@ -139,7 +139,7 @@ $(document).ready(function () {
 
     // dropdown map
     $('#sixth-section').click(function () {
-        $('#location-icon').css("transform", "rotate(90deg)");
+        // $('#location-icon').css("transform", "rotate(90deg)");
         $('#map').toggle(800);
     });
 
