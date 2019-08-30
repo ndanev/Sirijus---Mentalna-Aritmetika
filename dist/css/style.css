@@ -46,7 +46,7 @@
 }
 
 @keyframes mh-header {
-    0% {top: -100px;}
+    0% {top: -120px;}
     100% {top: 0px;}
 }
 
@@ -440,7 +440,7 @@ li.drop:hover > ul#dropdown-content {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-bottom: 75px;
-    color: var(--main-color);
+    /* color: var(--main-color); */
 }
 
 .second-section-content h2 img {
@@ -538,7 +538,7 @@ li.drop:hover > ul#dropdown-content {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-bottom: 75px;
-    color: var(--main-color);
+    /* color: var(--main-color); */
 }
 
 .card-2 {
